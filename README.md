@@ -59,6 +59,14 @@ model = Sequential([
 - Training Performance: The model achieves steady convergence with decreasing loss over epochs.
 - Visualization: The predicted stock prices closely follow actual trends, indicating a good fit.
 
+## Installation
+
+To install the required dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 📌 Conclusion
 This project successfully demonstrates how LSTM networks can effectively predict stock prices based on historical data. Future improvements may include:
 
