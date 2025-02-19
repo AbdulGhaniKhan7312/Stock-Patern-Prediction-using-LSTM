@@ -28,7 +28,6 @@ The project is organized into the following steps:
 5. **Evaluation & Visualization:** The predicted prices are compared with actual prices.  
 
 ## 🏗️ Model Architecture  
-The **LSTM network** consists of multiple layers:  
 
 ```python
 from tensorflow.keras.models import Sequential
@@ -43,7 +42,7 @@ model = Sequential([
     Dense(1)  # Output layer
 ])
 ```
-
+The **LSTM network** consists of multiple layers:  
 - LSTM layers: Capture sequential patterns in stock price movements.
 - Dense layers: Further refine features and improve prediction accuracy.
 - Output layer: Produces the final stock price prediction.
